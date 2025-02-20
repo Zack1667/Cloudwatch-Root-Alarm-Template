@@ -32,10 +32,12 @@ cd aws-root-account-monitoring
 
 ### 2️⃣ Configure Terraform Variables 
 
+```sh
 aws_region    = "eu-west-1"
 aws_profile   = "your-sso-profile"
 email_address = "your-email@example.com"
 account_id    = "123456789012"
+```
 
 ### 3️⃣ Initialize Terraform 
 
@@ -94,5 +96,6 @@ terraform destroy -auto-approve
 ```
 
 ### 🤝 Contributing
+
 Feel free to submit issues or pull requests to improve this project!
 
