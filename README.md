@@ -55,7 +55,8 @@ terraform plan
 terraform apply
 ```
 
-###📡 Deploying to Multiple AWS Accounts
+📡 Deploying to Multiple AWS Accounts
+
 To deploy across multiple AWS accounts, modify the aws_profile variable for each account:
 
 ```sh
